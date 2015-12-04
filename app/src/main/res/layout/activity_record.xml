@@ -8,19 +8,18 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="net.devwiki.study.MainActivity">
+    tools:context="net.devwiki.study.RecordActivity">
 
     <Button
-        android:id="@+id/btn_context_info"
+        android:id="@+id/record_start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Context Info"
-        android:onClick="onClick"/>
+        android:text="START RECORD"/>
 
     <Button
-        android:id="@+id/btn_record"
+        android:id="@+id/record_stop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RECORD"
-        android:onClick="onClick"/>
+        android:text="STOP RECORD"/>
+
 </LinearLayout>
