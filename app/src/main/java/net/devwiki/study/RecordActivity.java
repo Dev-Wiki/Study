@@ -33,6 +33,7 @@ public class RecordActivity extends AppCompatActivity implements View.OnClickLis
         initRecord();
 
         boolean result = checkPermission("android.permission.RECORD_AUDIO");
+
         DevLog.d("result:" + result);
     }
 
