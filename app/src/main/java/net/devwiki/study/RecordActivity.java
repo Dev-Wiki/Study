@@ -26,7 +26,9 @@ public class RecordActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_record);
 
         startButton = (Button) findViewById(R.id.record_start);
+        startButton.setOnClickListener(this);
         stopButton = (Button) findViewById(R.id.record_stop);
+        stopButton.setOnClickListener(this);
 
         initRecord();
 
